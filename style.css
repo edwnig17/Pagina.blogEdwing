@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenido-header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    min-height: 80px;
+    background-color: #212F3D;
+    display: flex;
+}
+.titulo-header{
+    color: #fff;
+}
+.items-header a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.active{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E74C3C;
+}
+.box-0{
+    background-image: url('https://educacion30.b-cdn.net/wp-content/uploads/2019/07/charlas-TED-de-programacion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-0-img{
+    width: 50%;
+    background-image: url('img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box-0-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgba(57, 57, 55, 0.6);
+    color: white;
+    text-align: center;
+    padding: 0px 60px;
+}
+.box-0-contenido h1{
+    color: #E67E22;
+}
+
+.box-1{
+    padding: 60px 0;
+    background-color: #F4F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box-1-contenido{
+    width: 80%;
+    max-width: 1200px;
+}
+.box-1-contenido h3{
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: start;
+}
+.box-1-contenido ol{
+    padding: 10px 0 0 0 ;
+    text-align: start;
+}
+.box-2{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-2 p{
+    text-align: start !important;
+    padding-top: 20px ;
+}
+.box-2 h2{
+    text-align: start !important;
+    padding-bottom: 20px;
+}
+.items{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 250px;
+    background-color: #f2f2f2;
+    padding: 30px 20px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.item:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 10px #00000027;
+}
+.item h1{
+    color: #17202A;
+    font-size:20px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+}
+.item h3{
+    font-size: 14px;
+    font-weight:600;
+    padding-top: 10px;
+}
+.line{
+    min-height: 2px;
+    width: 100%;
+    background-color: #E67E22;
+    margin: 60px 0;
+}
+footer{
+    width: 100%;
+    background-color: #17202A;
+    color: white;
+    min-height: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .box-0-img{
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .box-0-contenido{
+        width: 100%;
+        min-height: 300px;
+    }
+    .contenido-header{
+        flex-direction: column;
+    }
+    .contenido-header .items-header{
+        padding: 20px 0;
+    }
+}
